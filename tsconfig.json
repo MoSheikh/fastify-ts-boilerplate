@@ -17,11 +17,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
-    "outDir": "build"
+    "outDir": "build",
   },
   "include": [
     "src/**/*",
-    "**/*.config.js",
-    ".eslintrc.js"
+    "*.config.js"
   ]
 }

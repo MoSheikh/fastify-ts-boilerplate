@@ -6,3 +6,6 @@ node_modules
 
 # Ignore husky git hooks
 .husky
+
+# Ignore IDE
+.idea
