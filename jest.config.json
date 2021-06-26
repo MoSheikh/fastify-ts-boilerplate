@@ -1,0 +1,5 @@
+{
+  "preset": "ts-jest/presets/default-esm",
+  "testEnvironment": "node",
+  "setupFiles": ["./jest.setup.js"]
+}
