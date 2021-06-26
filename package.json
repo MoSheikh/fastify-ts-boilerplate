@@ -18,9 +18,10 @@
   },
   "homepage": "https://github.com/MoSheikh/fastify-ts-boilerplate#readme",
   "dependencies": {
-    "@types/node": "^15.12.4"
-  },
-  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.4",
+    "jest": "^27.0.5",
+    "ts-jest": "^27.0.3",
     "typescript": "^4.3.4"
   }
 }

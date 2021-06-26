@@ -1,10 +1,12 @@
 # Dependency directories
 node_modules/
 
+# output folder
+build
+
+#IDE
+.idea
+
 # dotenv environment variables file
 .env
 .env.test
-
-# output folder 
-build
-
