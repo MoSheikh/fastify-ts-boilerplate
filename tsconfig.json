@@ -16,5 +16,5 @@
     "noEmit": false,
     "outDir": "build"
   },
-  "include": ["src/**/*", "*.config.js", "*.setup.js"]
+  "include": ["src/**/*", "*.config.js", "*.setup.js", "README.md"]
 }

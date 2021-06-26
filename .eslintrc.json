@@ -9,10 +9,6 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "ignorePatterns": [
-    "**/*.md",
-    "**/*.css"
-  ],
   "extends": [
     "airbnb-typescript/base",
     "eslint:recommended",

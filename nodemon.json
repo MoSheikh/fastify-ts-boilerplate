@@ -1,8 +1,6 @@
 {
   "verbose": true,
-  "watch": [
-    "build/"
-  ],
+  "watch": ["build/"],
   "env": {
     "NODE_ENV": "development"
   }
