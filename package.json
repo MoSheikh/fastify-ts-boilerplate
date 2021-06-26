@@ -1,0 +1,26 @@
+{
+  "name": "fastify-ts-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for HTTP REST applications powered by Fastify, using TypeScript and Node",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoSheikh/fastify-ts-boilerplate.git"
+  },
+  "author": "Mohammad Sheikh",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/MoSheikh/fastify-ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/MoSheikh/fastify-ts-boilerplate#readme",
+  "dependencies": {
+    "@types/node": "^15.12.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
+}
