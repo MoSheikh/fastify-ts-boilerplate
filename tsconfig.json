@@ -14,7 +14,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
-    "outDir": "build"
+    "outDir": "build",
+    "sourceMap": true
   },
   "include": ["src/**/*", "*.config.js", "*.setup.js"]
 }

@@ -1,7 +1,8 @@
 {
   "verbose": true,
-  "watch": ["build/"],
+  "watch": ["src/"],
   "env": {
     "NODE_ENV": "development"
-  }
+  },
+  "exec": "node --loader ts-node/esm src/index.ts"
 }
