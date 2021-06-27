@@ -1,3 +1,3 @@
 if (!process.env.NODE_ENV) throw new Error("Error, no environment provided.");
 
-require("dotenv").config({ path: `.env.${process.env.NODE_ENV}` });
+require("dotenv").config({ path: `.env.test` });

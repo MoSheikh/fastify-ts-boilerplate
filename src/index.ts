@@ -1,16 +1,7 @@
-import dotenv from "dotenv";
 import { server } from "./server.js";
-import { ping } from "./ping.js";
+import { env } from "./environment.js";
 
-dotenv.config();
-
-server.register(ping, {});
-
-server.ready((err) =>
-  err ? server.log.error(err) : server.log.info("Ready!")
-);
-
-server.listen(3000, (err, address) => {
+server.listen(env.PORT, (err, address) => {
   if (err) {
     server.log.error(err);
     process.exit(1);
