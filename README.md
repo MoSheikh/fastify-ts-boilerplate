@@ -10,8 +10,6 @@ Boilerplate for HTTP REST applications powered by Fastify, using TypeScript and 
 
 ### Getting Started
 
-<gr>
-
 #### Clone the project:
 
 ```shell
