@@ -13,7 +13,7 @@ Boilerplate for HTTP REST applications powered by Fastify, using TypeScript and 
 #### Clone the project:
 
 ```shell
-git clone https://github.com/MoSheikh/react-ts-boilerplate.git <new_project>
+git clone https://github.com/MoSheikh/fastify-ts-boilerplate.git <new_project>
 cd <new_project>
 npm i
 ```
